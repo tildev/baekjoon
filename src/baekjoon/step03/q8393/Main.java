@@ -5,7 +5,6 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.StringTokenizer;
 
 /**
  * @author tildev
@@ -20,12 +19,12 @@ public class Main {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
 		int n = Integer.valueOf(br.readLine());
-		
-		int result =0;
-		for(int i=1; i<=n; i++) {
-			result +=i;
+
+		int result = 0;
+		for (int i = 1; i <= n; i++) {
+			result += i;
 		}
-		
+
 		bw.write(String.valueOf(result));
 		bw.close();
 	}

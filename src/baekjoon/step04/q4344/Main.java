@@ -1,7 +1,9 @@
 package baekjoon.step04.q4344;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
 /**
@@ -14,31 +16,33 @@ import java.util.StringTokenizer;
 public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         int cnt = Integer.valueOf(br.readLine());
 
         int sdCnt;
         double sdNum, avg;
         for (int i = 0; i < cnt; i++) {
-            StringTokenizer st = new StringTokenizer(br.readLine()," ");
-            
+            StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+
             sdCnt = Integer.valueOf(st.nextToken());
             int score[] = new int[sdCnt];
             avg = 0;
-            for(int j =0; j<sdCnt; j++) {
+            for (int j = 0; j < sdCnt; j++) {
                 score[j] = Integer.valueOf(st.nextToken());
                 avg += score[j];
             }
-            avg = avg/(double)sdCnt;
+            avg = avg / (double) sdCnt;
             sdNum = 0;
-            for(int j =0; j<sdCnt; j++) {
-                if(score[j]>avg) {
-                    sdNum +=1;
+            for (int j = 0; j < sdCnt; j++) {
+                if (score[j] > avg) {
+                    sdNum += 1;
                 }
             }
-            
-            System.out.printf("%.3f",(sdNum/(double)sdCnt*100.0));
-            System.out.println("%");
+            bw.write(String.format("%.3f", (sdNum / (double) sdCnt * 100.0)) + "%\n");
         }
+        bw.flush();
+        bw.close();
+        br.close();
     }
 }

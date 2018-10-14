@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
  */
 // 크로아티아 알파벳
 // 메모리 제한, 시간 제한/ 128MB, 1초
-// 10080 MB, 76 ms
+// 10080 KB, 76 ms
 public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

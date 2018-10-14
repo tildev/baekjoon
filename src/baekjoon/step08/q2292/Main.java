@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
  */
 // 벌집
 // 메모리 제한, 시간 제한/ 128MB, 1초
-// 10016 MB, 76 ms
+// 10016 KB, 76 ms
 public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

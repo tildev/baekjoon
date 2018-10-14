@@ -19,10 +19,10 @@ public class Main {
             val -= cnt;
             cnt++;
         }
-        if(cnt%2==0) {
-            System.out.println(val+"/"+(cnt+1-val));
-        }else {
-            System.out.println((cnt+1-val)+"/"+val);
+        if (cnt % 2 == 0) {
+            System.out.println(val + "/" + (cnt + 1 - val));
+        } else {
+            System.out.println((cnt + 1 - val) + "/" + val);
         }
     }
 }

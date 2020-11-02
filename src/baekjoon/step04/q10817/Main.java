@@ -1,10 +1,6 @@
 package baekjoon.step04.q10817;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -18,23 +14,23 @@ import java.util.StringTokenizer;
 // 메모리 제한, 시간 제한/ 256MB, 1초
 // 10192 KB, 76 ms
 public class Main {
-	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-		String s = br.readLine();
+        String s = br.readLine();
 
-		StringTokenizer st = new StringTokenizer(s, " ");
+        StringTokenizer st = new StringTokenizer(s, " ");
 
-		List<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
 
-		list.add(Integer.valueOf(st.nextToken()));
-		list.add(Integer.valueOf(st.nextToken()));
-		list.add(Integer.valueOf(st.nextToken()));
+        list.add(Integer.valueOf(st.nextToken()));
+        list.add(Integer.valueOf(st.nextToken()));
+        list.add(Integer.valueOf(st.nextToken()));
 
-		list.sort(Comparator.naturalOrder());
+        list.sort(Comparator.naturalOrder());
 
-		bw.write(String.valueOf(list.get(1)));
-		bw.close();
-	}
+        bw.write(String.valueOf(list.get(1)));
+        bw.close();
+    }
 }

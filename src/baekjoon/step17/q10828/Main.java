@@ -57,9 +57,9 @@ public class Main {
         if (size == 0) {
             System.out.println(-1);
         } else {
-            int x = stack.get(size - 1);
-            stack.remove(size - 1);
             size -= 1;
+            int x = stack.get(size);
+            stack.remove(size);
             System.out.println(x);
         }
     }

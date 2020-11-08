@@ -5,7 +5,7 @@ import java.util.StringTokenizer;
 
 /**
  * 최소, 최대
- * 메모리, 시간 제한  - 256 MB,   2초
+ * 메모리, 시간 제한  - 256 MB,   1초
  * 메모리, 시간      - 89140 KB, 588 MS
  *
  * @author tildev

@@ -1,12 +1,12 @@
-package baekjoon.step21.q1927;
+package baekjoon.step21.q11286;
 
 import java.io.*;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
 /**
- * 최소 힙
- * 메모리, 시간 제한  - 128 MB,   1초
+ * 절댓값 힙
+ * 메모리, 시간 제한  - 256 MB,   1초
  * 메모리, 시간      - 26512 KB, 340 ms
  *
  * @author tildev

@@ -1,4 +1,4 @@
-package baekjoon.step21.q11286;
+package baekjoon.step21.q1655;
 
 import java.io.*;
 import java.util.Collections;

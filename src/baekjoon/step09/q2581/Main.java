@@ -21,21 +21,21 @@ public class Main {
 
         int sum = 0;
 
-        boolean[] noSosuArr = new boolean[n + 1];
-        noSosuArr[0] = noSosuArr[1] = true;
+        boolean[] noPrimeNumberArr = new boolean[n + 1];
+        noPrimeNumberArr[0] = noPrimeNumberArr[1] = true;
         for (int i = 2; i <= Math.sqrt(n); i++) {
 
-            if (noSosuArr[i]) {
+            if (noPrimeNumberArr[i]) {
                 continue;
             }
-            for (int j = i * i; j < noSosuArr.length; j += i) {
-                noSosuArr[j] = true;
+            for (int j = i * i; j < noPrimeNumberArr.length; j += i) {
+                noPrimeNumberArr[j] = true;
             }
         }
         boolean isFirst = true;
         int firstValue = -1;
         for (int i = m; i <= n; i++) {
-            if (!noSosuArr[i]) {
+            if (!noPrimeNumberArr[i]) {
                 if (isFirst) {
                     isFirst = false;
                     firstValue = i;

@@ -32,7 +32,7 @@ public class Main {
 
         /**
          * -1,000,000 ~ 1,000,000
-         * 죽, index = 0 은, -1,000,000 이라고 생각
+         * 즉, index = 0 은, -1,000,000 이라고 생각
          */
         for (int i = 0; i < n; i++) {
             num = Integer.parseInt(br.readLine()) + DEFAULT_INDEX;

@@ -3,7 +3,6 @@ package baekjoon.step25.q1644;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.StringTokenizer;
 
 /**
  * 소수의 연속합
@@ -16,13 +15,11 @@ import java.util.StringTokenizer;
  * @author tildev
  * @data 2020. 01. 12.
  */
-public class Main {
 
+public class Main {
     private static int n, sum, start, end, cnt = 0;
     private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-
-    public static StringTokenizer st;
 
     public static void main(String[] args) throws IOException {
         n = Integer.parseInt(br.readLine());
@@ -30,6 +27,7 @@ public class Main {
         noPrimeNumberArr[0] = noPrimeNumberArr[1] = true;
 
         for (int i = 2; i <= Math.sqrt(n); i++) {
+
             if (noPrimeNumberArr[i]) {
                 continue;
             }

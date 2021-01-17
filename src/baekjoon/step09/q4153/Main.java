@@ -14,8 +14,6 @@ import java.util.StringTokenizer;
  * @data 2020. 01. 17.
  */
 public class Main {
-
-    private static int a, b, c, i, max;
     // rightTriangle
     private static int[] rTArr;
 

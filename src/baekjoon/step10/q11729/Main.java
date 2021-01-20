@@ -9,7 +9,7 @@ import java.io.*;
  * 메모리, 시간      - 94284 KB, 364 ms
  *
  * @author tildev
- * @data 2020. 12. 19.
+ * @data 2021. 01. 20.
  */
 public class Main {
     private static int n, cnt = 0;

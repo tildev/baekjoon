@@ -15,7 +15,6 @@ import java.util.StringTokenizer;
 public class Main {
     private static int n, rank;
     private static int[][] info;
-    private static StringBuilder sb = new StringBuilder();
     private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     private static StringTokenizer st;

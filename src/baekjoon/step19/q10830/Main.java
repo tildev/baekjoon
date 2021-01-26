@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
  * 행렬 제곱
  * <p>
  * 메모리, 시간 제한  - 256 MB,   1 초
- * 메모리, 시간      -  KB,  ms
+ * 메모리, 시간      - 11664 KB, 80 ms
  *
  * @author tildev
  * @data 2021. 01. 24.

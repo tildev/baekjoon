@@ -7,8 +7,8 @@ import java.util.StringTokenizer;
 /**
  * 오큰수
  * <p>
- * 메모리, 시간 제한  - 512  MB,  1초
- * 메모리, 시간      -  KB,  ms
+ * 메모리, 시간 제한  - 512  MB,   1초
+ * 메모리, 시간      - 254580 KB, 1052 ms
  *
  * @author tildev
  * @data 2021. 01. 29.

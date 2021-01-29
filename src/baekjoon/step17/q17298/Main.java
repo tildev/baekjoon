@@ -48,7 +48,6 @@ public class Main {
             bw.write(arr[i] + " ");
         }
 
-
         bw.flush();
         bw.close();
     }

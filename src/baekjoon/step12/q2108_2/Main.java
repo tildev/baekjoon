@@ -21,7 +21,6 @@ public class Main {
     private static double sum = 0;
 
     private static int[] arr = new int[ARRAY_SIZE];
-    private static String arithmeticMean, median, mode, range;
     private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
@@ -106,7 +105,7 @@ public class Main {
                     if (rangeMin == -4001) {
                         rangeMin = i - ARRAY_SIZE;
                     }
-                    rangeMax =  i - ARRAY_SIZE;
+                    rangeMax = i - ARRAY_SIZE;
                 }
             }
         }

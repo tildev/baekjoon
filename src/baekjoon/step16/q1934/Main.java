@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
  * 최소공배수
  * <p>
  * 메모리, 시간 제한  - 128 MB,   1초
- * 메모리, 시간      -  KB,  MS
+ * 메모리, 시간      - 12404 KB, 96 ms
  *
  * @author tildev
  * @data 2021. 02. 11.

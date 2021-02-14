@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
  * 이항 계수 2
  * <p>
  * 메모리, 시간 제한  - 256 MB,   1초
- * 메모리, 시간      -  KB,  ms
+ * 메모리, 시간      - 15720 KB, 96 ms
  * <p>
  * *팩토리얼 주의사항
  * 12! - int 범위를 넘어선다

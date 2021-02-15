@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
  * step16 - 정수론 및 조합론
  * 패션왕 신해빈
  * <p>
- * 메모리, 시간 제한  - 256 MB,   1초
+ * 메모리, 시간 제한  - 128 MB,   1초
  * 메모리, 시간      - 11908 KB, 80 ms
  * <p>
  * 경우의 수 문제

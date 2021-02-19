@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
  * N과 M (1)
  * <p>
  * 메모리, 시간 제한  - 128 MB,   1 초
- * 메모리, 시간      -  KB,  ms
+ * 메모리, 시간      - 50844 KB, 316 ms
  * <p>
  * 백트래킹의 하나로 DFS, BFS 가 있음.
  *

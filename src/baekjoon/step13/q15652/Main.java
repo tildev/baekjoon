@@ -7,8 +7,8 @@ import java.util.StringTokenizer;
  * step13 - 백트래킹
  * N과 M (4)
  * <p>
- * 메모리, 시간 제한  - 512 MB,    1 초
- * 메모리, 시간      -  KB,  ms
+ * 메모리, 시간 제한  - 512 MB,   1 초
+ * 메모리, 시간      - 20048 KB, 136 ms
  * <p>
  *
  * @author tildev
